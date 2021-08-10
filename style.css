@@ -1,0 +1,130 @@
+body,html{
+    height: 100%;
+    margin: 0;
+
+}
+.img1{
+    background-image: url(./images/taj.jpg);
+}
+.img2{
+    background-image: url(./images/camel.jpg);
+
+}
+
+.img3{
+    background-image: url(./images/rajsat.jpg);
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+
+}
+.img4{
+    background-image: url(./images/holi.jpg);
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+/* .img5{
+    background-image: url(/images/debashis-rc-biswas-dyPFnxxUhYk-unsplash.jpg);
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7; */
+/* } */
+.img1 {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+    
+    
+}
+.img2{
+        width: 100%;
+        height: 550px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        opacity: 0.7;
+}
+.tex{
+    position:absolute;
+    top: 450px;
+    left: 35%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.tex .box{
+    background-color: lightpink;
+    padding: 10px;
+    margin: 60px;
+    font-weight: 900;
+}
+.par{
+    width: 100%;
+    min-height: 200px;
+    background-color:linen;
+   text-align: center;
+   box-shadow: crimson;
+   
+}
+.par h1 {
+    font-family: sans-serif;
+    color:chocolate;
+    font-weight: bold;
+    padding-top: 70px;
+}
+.par p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    line-height: 25px;
+
+
+}
+@media(max-width:568px){
+     .img1,.img2,.img3, .img4{
+        width: 568px;
+opacity: 0.7;
+        background-attachment: fixed;
+
+}
+.par{
+    width: 568px;
+    min-height: 200px;
+    background-color:linen;
+   text-align: center;
+   box-shadow: crimson;
+}
+.tex .box{
+    font-size: 20px;
+    width: 200px;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+}
+}
+
